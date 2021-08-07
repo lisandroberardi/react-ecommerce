@@ -23,7 +23,6 @@ function Menu(){
                 context.userLogin &&
                 <>
                   <Nav.Link as={Link} to="/abm">ABM</Nav.Link>
-                  {/* <Nav.Link onClick={handleLogout}>Logout</Nav.Link> */}
                   <NavDropdown title={context.userInfo.nombre} id="basic-nav-dropdown">
                     <NavDropdown.Item href="#perfil">Perfil</NavDropdown.Item>
                     <NavDropdown.Item href="#preferencias">Preferencias</NavDropdown.Item>
